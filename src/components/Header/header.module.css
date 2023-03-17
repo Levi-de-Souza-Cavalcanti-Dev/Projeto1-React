@@ -1,0 +1,35 @@
+.ContainerNav{
+    width: 100%;
+    background: #141212;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 9px;
+    box-shadow: -1px 1px 7px 2px aqua;
+    margin: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+    transition: 0.3s;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+a:hover{
+    color: #242424;
+    opacity: 0.6;
+    background: rgb(240, 235, 235);
+    padding: 12px;
+    border-radius: 15px 5px;
+}
+
+ul, li{
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+}
+
+
